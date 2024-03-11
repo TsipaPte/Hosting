@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+::selection {
+    background-color: #b3dee4;
+}
+body {
+    font-family: Inter, 'Yu Gothic UI Light', Arial, sans-serif;
+    background-color: #fdfdfd;
+}
+.main-header, .what-we, .what-we_args {
+    background-color: #eeeeee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.navigation_list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.navigation-list-item > a {
+    text-decoration: none;
+    color: #000000;
+    transition: color .3s;
+}
+.navigation-list-item > a:hover {
+    color: #92c94a;
+    transition: color .3s;
+}
+.what-we {
+    margin-top: 20px;
+}
+.what-we_args {
+    background-color: #dad8d8;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.what-we_arg {
+    border-bottom: 1px solid #000000;
+}
+.what-we_arg:last-child {
+    border-bottom: none;
+}
+.buy-section {
+    text-align: center;
+    margin-top: 40px;
+}
+.buy-button {
+    background-color: #ffffff;
+    border: 1px solid #153dac;
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: background-color .6s;
+}
+.buy-button:hover {
+    background-color: #153dac;
+    border: 1px solid #153dac;
+    color: #ffffff;
+    transition: background-color .6s;
+}

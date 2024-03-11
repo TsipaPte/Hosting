@@ -1,0 +1,10 @@
+@media (max-width: 450px) {
+    .navigation_list {
+        display: inline-block;
+        text-align: center;
+        padding-left: 100px;
+    }
+    .navigation-list-item {
+        margin-bottom: 5px;
+    }
+}
